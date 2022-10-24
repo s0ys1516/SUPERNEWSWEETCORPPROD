@@ -2060,6 +2060,31 @@ h2.gift__subtitle--hidden {
   margin-bottom: 0;
 }
 
+.map__point--fourth {
+  padding-left: 23px;
+}
+
+.map__point--fifth {
+  padding-left: 23px;
+  text-decoration: none;
+}
+
+.map__telegram, 
+.map__whatsapp {
+  text-decoration: none;
+  margin-bottom: 20px;
+  position: relative;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #474747;
+}
+
+.map__telegram:hover, 
+.map__whatsapp:hover {
+  color: #DD4141;
+}
+
 .map__point--first::before {
   content: "";
   background-image: url(../img/svg/telephone.svg);
@@ -2091,6 +2116,28 @@ h2.gift__subtitle--hidden {
   position: absolute;
   left: 0;
   top: 25%;
+}
+
+.map__point--fourth::before {
+  content: "";
+  background-image: url(../img/svg/telegram.svg);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: -3px;
+  top: 5%;
+}
+
+.map__point--fifth::before {
+  content: "";
+  background-image: url(../img/svg/whatsapp.svg);
+  background-repeat: no-repeat;
+  width: 17px;
+  height: 20px;
+  position: absolute;
+  left: -3px;
+  top: 20%;
 }
 
 .form {
@@ -2977,6 +3024,11 @@ input[type="tel"]::-moz-placeholder {
 .map__phonenumber:hover,
 .map__mail:hover {
   color: #DD4141;
+}
+
+.map__phonenumber {
+  text-decoration: none;
+  color: black;
 }
 
 .map__mail {
