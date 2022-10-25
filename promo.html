@@ -21,15 +21,14 @@
   <!-- используйте только для шрифта находящегося на первом экране -->
   <!-- <link rel="preload" href="fonts/placeholder.woff2" as="font" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/site.webmanifest">
-  <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="favicon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#b91d47">
-  <meta name="msapplication-config" content="favicon/browserconfig.xml">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#5bbad5">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#2b5797">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
   <title>Сладкие новогодние подарки оптом. Скидка до 31 октября! | SweetCorp</title>
 </head>
@@ -92,6 +91,16 @@
             <a href="tel:+74999388359" class="header__phone" onclick="ym(90867387,'reachGoal','PhoneNumber')">
               +7 (499) 938-83-59
             </a>
+            <div class="social-networks--header">
+              <a href="https://tlgg.ru/@sweetcorp_ru" class="header__telegram"
+                onclick="ym(90867387,'reachGoal','Telegram')">
+                <img src="img/svg/tg.svg" alt="Telegram">
+              </a>
+              <a href="https://wa.me/79066389343?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%F0%9F%91%8B"
+                class="header__whatsapps" onclick="ym(90867387,'reachGoal','WhatsApp')">
+                <img src="img/svg/wa.svg" alt="WhatsApp">
+              </a>
+            </div>
           </div>
         </nav>
       </div>
@@ -124,18 +133,18 @@
             <h2 class="gift__subtitle gift__subtitle--hidden">Наши подарки</h2>
           </li>
           <li class="gift__point">
-            <span class="gift__subtitle">Для детей</span>
+            <a href="#form" class="gift__subtitle">Для детей</a>
             <picture class="gift__picture gift__picture--first"><img src="img/content/for-children.jpg"
                 alt="Изображение под подарки для детей"></picture>
           </li>
           <li class="gift__point">
-            <span class="gift__subtitle gift__picture--second">Для сотрудников</span>
+            <a href="#form" class="gift__subtitle gift__picture--second">Для сотрудников</a>
             <picture class="gift__picture"><img src="img/content/for-employees.jpg"
                 alt="Изображение под подарки для сотрудников">
             </picture>
           </li>
           <li class="gift__point">
-            <span class="gift__subtitle">Для близких</span>
+            <a href="#form" class="gift__subtitle">Для близких</a>
             <picture class="gift__picture gift__picture--third"><img src="img/content/for-relatives.jpg"
                 alt="Изображение под подарки для близких"></picture>
           </li>
@@ -583,7 +592,7 @@
                 class="map__whatsapp" onclick="ym(90867387,'reachGoal','WhatsApp')">WhatsApp</a></li>
             <li class="map__point map__point--second">Дмитровское шоссе 100с2, офис 2228</li>
             <li class="map__point map__point--third"><a href="mailto:sales@sweetcorp.ru" class="map__mail"
-                onclick="ym(90867387,'reachGoal','Mail')">Sales@sweetcorp.ru</a></li>
+                onclick="ym(90867387,'reachGoal','Mail')">sales@sweetcorp.ru</a></li>
           </ul>
         </div>
         <script type="text/javascript" charset="utf-8" async
@@ -599,6 +608,16 @@
         <img src="img/svg/logo-recolor.svg" alt="Footer's logo" class="footer__logo">
         <a href="tel:+74999388359" class="footer__phonenumber" onclick="ym(90867387,'reachGoal','PhoneNumber')">+7 (499)
           938-83-59</a>
+        <div class="social-networks--footer">
+          <a href="https://tlgg.ru/@sweetcorp_ru" class="header__telegram"
+            onclick="ym(90867387,'reachGoal','Telegram')">
+            <img src="img/svg/tg-ft.svg" alt="Telegram">
+          </a>
+          <a href="https://wa.me/79066389343?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%F0%9F%91%8B"
+            class="header__whatsapps" onclick="ym(90867387,'reachGoal','WhatsApp')">
+            <img src="img/svg/wa-ft.svg" alt="WhatsApp">
+          </a>
+        </div>
       </div>
     </footer>
   </div>
